@@ -9,3 +9,6 @@ generates the assembly code of a C code
 
 3-name
 compiles a C file and creates an executable
+
+4-puts.c
+Use the function puts
