@@ -15,3 +15,6 @@ Use the function puts
 
 5-printf.c
 Use the function printf
+
+6-size.c
+prints the size of various types
