@@ -1,4 +1,4 @@
-# !/ bin / bash
+#!/bin/bash
 #include <stdio.h>
 /**
 *main- print string using puts functiom
@@ -7,6 +7,7 @@
 *Return: 0 
 */
 int main(void)
+
 {
 puts("\"Programming is like building a multilingual puzzle\n")
 return (0); 
