@@ -12,3 +12,6 @@ compiles a C file and creates an executable
 
 4-puts.c
 Use the function puts
+
+5-printf.c
+Use the function printf
