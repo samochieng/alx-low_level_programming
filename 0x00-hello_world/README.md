@@ -20,4 +20,7 @@ Use the function printf
 prints the size of various types
 
 100-intel
-generates the assembly code (Intel syntax) 
+generates the assembly code (Intel syntax)
+
+101-quote.c
+prints exactly  
