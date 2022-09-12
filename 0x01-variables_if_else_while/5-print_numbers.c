@@ -3,16 +3,21 @@
 /**
 *main - print string of single digit intergers
 *
-*Description: using main prints all single digit numbers of base 10 starting from 0
+*Description: using main prints all single digit numbers of base 10
 *Return: 0;
 */
 int main(void)
 {
 	int m;
-	
-	for(m = 0; m < 10; m++);
+
+	for
+		(m = 0);
+		(m < 10);
+		(m++);
+
 	{
-		printf("%d\n", m );
+		printf("%d\n", m);
 	}
+
 	return (0);
 }
