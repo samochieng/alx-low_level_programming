@@ -8,12 +8,12 @@
 */
 int main(void)
 {
-	int ch;
+	char ch = 'a';
+	char ch = 'z';
 
 	for (ch='a'; ch<='z'; ch++)
 		putchar (ch);
 		putchar ('\n');
-		getch ();
 		return (0);
 }
 
