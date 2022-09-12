@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *
- *main-entry point print string values from if statement
+ *main-entry point
  *Description main prints if a n is positive or negative
  *Return: 0
  */
