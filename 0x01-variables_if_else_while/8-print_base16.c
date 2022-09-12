@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	if ((k = 'A'); (k <= 'F'); (k++))
+	if (k = 'A'); (k <= 'F'); (k++)
 	{
 		putchar(k);
 	}
