@@ -10,3 +10,6 @@ prints the alphabet in lowercase
 3-print_alphabets.c
 prints the alphabet in lowercase, and then in uppercase 
 
+4-print_alphabt.c
+prints the alphabet in lowercase !q & e
+
