@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 /*more headers goes there 
  *Description prints is a n is positive or negative
