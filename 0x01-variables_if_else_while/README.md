@@ -2,5 +2,8 @@
 assign a random number to the variable n
 
 1-last_digit.c
-print the last digit of the number stored 
+print the last digit of the number stored
+
+2-print_alphabet.c
+prints the alphabet in lowercase 
 
