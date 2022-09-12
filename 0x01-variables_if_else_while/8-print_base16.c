@@ -9,18 +9,20 @@
 int main(void)
 {
 	int ch;
+	int k;
 
 	for (ch = 0; ch <= 9; ch++)
 	{
 		putchar(ch);
 	}
-	if (ch = 'A'; ch <= 'F'; ch++)
+	if (k = 'A'; k <= 'F'; k++)
 	{
-		putchar(ch);
+		putchar(k);
 	}
 	else
 	{
 	}
 	putchar('\n');
-	return (o);
+	return (0);
 }
+
