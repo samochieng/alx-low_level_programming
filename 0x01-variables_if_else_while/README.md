@@ -5,5 +5,8 @@ assign a random number to the variable n
 print the last digit of the number stored
 
 2-print_alphabet.c
-prints the alphabet in lowercase 
+prints the alphabet in lowercase
+
+3-print_alphabets.c
+prints the alphabet in lowercase, and then in uppercase 
 
