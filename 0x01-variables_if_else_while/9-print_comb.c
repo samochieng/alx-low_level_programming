@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*mian - prints output using printf
+*main - entry point
 *
 * Description: prints all possible combinations of single-digit numbers
 * Return: 0;
