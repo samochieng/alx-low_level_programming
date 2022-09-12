@@ -18,3 +18,6 @@ Use the function printf
 
 6-size.c
 prints the size of various types
+
+100-intel
+generates the assembly code (Intel syntax) 
