@@ -10,7 +10,7 @@
 */
 int main()
 {
-	_putchar.c();
+	_putchar();
 	putchar("\n");
 	return (0);
 }
