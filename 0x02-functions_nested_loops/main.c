@@ -10,7 +10,7 @@
 */
 int main(void)
 {
-	_putchar('n');
+	_putchar();
 
 	return (0);
 }
