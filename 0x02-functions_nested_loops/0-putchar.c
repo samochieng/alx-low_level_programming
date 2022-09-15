@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * * main - prints putchar to stdout
- * *
- * * Description: program that prints variable, followed by a new line
- * *
- * * Return: 0;
- * */
+ * main - prints putchar to stdout
+ *
+ * Description: program that prints variable, followed by a new line
+ *
+ * Return: 0;
+ */
 int main(void)
 {
 	_putchar('_');
