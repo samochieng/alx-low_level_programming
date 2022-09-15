@@ -14,7 +14,7 @@ void print_times_table(int n)
 		{
 			for (mult = 0; mult <= n; mult++)
 			{
-				result = digit * mult
+				result = digit * mult;
 				if (result > 99)
 				{
 					_putchar(',');
