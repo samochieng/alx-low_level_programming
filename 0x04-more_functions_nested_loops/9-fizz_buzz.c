@@ -1,7 +1,7 @@
 #include "main.h"
 #include "stdio.h"
 
-/
+/**
 *main - prints fixx, buzz or fizzbuzz
 *
 * Return: 0;
@@ -28,8 +28,15 @@ int main(void)
 			}
 			else
 			{
-				printf("Buzz")
+				printf("Buzz");
 			}
 		}
+		else
+		{
+			printf("%d ", num);
+		}
 	}
+	printf("\n");
+
+	return (0);
 }
