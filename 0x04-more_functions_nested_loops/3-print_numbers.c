@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	for (k = 48; k < 58; k++)
 	{
-		_putchar(k);
+		putchar(k);
 	}
-	_putchar(10);
+	putchar(10);
 }
