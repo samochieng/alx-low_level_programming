@@ -7,9 +7,10 @@
 */
 void puts2(char *str)
 {
-	int i, len;
+	int i; 
+	int len;
 
-	len = strlen(str)
+	len = strlen(str);
 
 	for (i = 0; i < len; i++)
 	{
