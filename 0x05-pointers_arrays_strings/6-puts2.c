@@ -1,4 +1,5 @@
 #include "main.h"
+#include "string.h"
 
 /**
 * puts2 -> function that prints evry other character of a string
