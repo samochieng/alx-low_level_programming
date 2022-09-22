@@ -17,14 +17,14 @@ void print_buffer(char *b, int size)
 		else
 			printf("  ");
 		if (j % 2)
-			_putchar(' ');
+			putchar(' ');
 	}
 	for (k = 0; k <= s; k++)
 	{
 		if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
-			_putchar(c[l * 10 + k]);
+			putchar(c[l * 10 + k]);
 		else
-			_putchar('.');
+			putchar('.');
 	}
 }
 
@@ -50,8 +50,8 @@ void print_buffer(char *b, int size)
 		{
 			print_line(b, size % 10 - 1, i);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 	if (size == 0)
-		_putchar('\n');
+		putchar('\n');
 }
