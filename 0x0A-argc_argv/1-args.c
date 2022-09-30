@@ -1,15 +1,15 @@
 #include "main.h"
 #include "stdio.h"
 
-/** 
+/**
  * main -> prints all the arguments it receives
- * @argc: argument counter
+ * @args: argument counter
  * @argv: argument vector
  * Return: 0;
  */
-int main(int argc, char *argv[])
+int main(int args, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	printf("%d\n", args - 1);
 
 	void(argv);
 	
