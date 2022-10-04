@@ -8,7 +8,7 @@
 *
 * Return: eturns a pointer to the duplicated string or NULL
 */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i, j = 0;
 	char *s;
