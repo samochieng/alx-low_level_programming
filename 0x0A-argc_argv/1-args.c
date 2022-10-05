@@ -7,16 +7,9 @@
  * @argv: argument vector
  * Return: 0;
  */
-int main(int argc, char *argv[])
+int main(int argc, char  __attribute__((__unused__)) *argv[])
 {
-	int count = 0;
+	printf("%d\n", argc - 1);
 
-	if (argc > 0) 
-	{
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
-		}
-	}
 	return (0);
 }
