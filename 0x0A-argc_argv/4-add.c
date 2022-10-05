@@ -4,7 +4,7 @@
 #include "string.h"
 
 /**
-* check_num -> checks if there is a digit 
+* check_num -> checks if there is a digit
 * @str: array str
 *
 * Return: 0;
