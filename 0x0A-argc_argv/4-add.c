@@ -4,6 +4,29 @@
 #include "string.h"
 
 /**
+* check_num -> checks if there is a digit 
+* @str: array str
+*
+* Return: 0;
+*/
+
+int check_num(char *str)
+{
+	unsigned int count;
+
+	count = 0;
+	while (count < strlen(str))
+	{
+		if (!isdigit(str[count]))
+		{
+			return (0);
+		}
+		count++;
+	}
+	return (1);
+}
+
+/**
 * main -> adds two positve numbers
 * @argc: argument counter
 * @argv: argument vector
@@ -12,29 +35,24 @@
 */
 int main(int argc, int *argv[])
 {
-	int sum = 0, i;
+	int count;
+	int str_to_int;
+	int sum = 0;
 
-	if (argc > 1)
+	count = 1;
+	while (count < argc)
 	{
-		for (i = 1; i < argc; i++)
+		if (check_num(argv[count]))
 		{
-			int b;
-			char *str;
-
-			str = argv[i];
-			for (b = 0; str[b] != '\0'; b++)
-			{
-				if (str[b] < 48 || str[b] > 57)
-				{
-					printf("Error\n");
-					return (1);
-				}
-			}
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
 		}
-	}
-	for (i = 1; i < argc; i++)
-	{
-		sum += atoi(argv[i]);
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);
