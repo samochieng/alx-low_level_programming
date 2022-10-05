@@ -1,5 +1,6 @@
 #include "stdio.h"
 #include "stdlib.h"
+#include "ctype.h"
 
 /**
 * main -> adds two positve numbers
@@ -10,19 +11,29 @@
 */
 int main(int argc, int *argv[])
 {
-	int num, dig, sum = 0;
+	int sum = 0, i;
 
-		for (num = 1; num < argc; num++)
+	if (argc > 1)
+	{
+		for (i = 0; i < argc; i++)
 		{
-			for (dig = 0; argv[num][dig]; dig++)
+			int b;
+			char *str;
+			
+			str = argv[i];
+			for (b = 0; str[b] != '\0'; b++)
 			{
-				if (argv[num][dig] < '0' || argv[num][dig] > '9')
+				if (str[b] < 48 || str[b] > 57)
 				{
 					printf("Error\n");
 					return (1);
 				}
 			}
-			sum += atoi(argv[num]);
+		}
+	}
+	for (i = 1; i < argc; i++)
+	{
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
