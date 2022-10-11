@@ -1,11 +1,20 @@
 #ifndef DOG_H
 #define DOG_H
 
+/**
+* struct dog -> struct dog
+* @name: name
+* @age: age
+* @owner: owner
+* Descrption: This struct is for dog
+*/
+
 struct dog
 {
-	char * name;
+	char *name;
 	float age;
-	char *;
+	char *owner;
+
 };
 
 typedef struct dog dog_v;
